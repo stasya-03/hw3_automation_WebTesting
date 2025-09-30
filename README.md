@@ -1,0 +1,1 @@
+[![Java CI with Gradle](https://github.com/stasya-03/hw3_automation_WebTesting/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/stasya-03/hw3_automation_WebTesting/actions/workflows/gradle.yml)

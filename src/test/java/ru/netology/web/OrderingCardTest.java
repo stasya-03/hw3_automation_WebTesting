@@ -44,7 +44,7 @@ public class OrderingCardTest {
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79270000000");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
         driver.findElement(By.className("button")).click();
-        WebElement result = driver.findElement(By.className("Success_successBlock__2L3Cw"));
+        WebElement result = driver.findElement(By.cssSelector("[data-test-id='order-success']"));
         assertTrue(result.isDisplayed());
         assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", result.getText().trim());
 
